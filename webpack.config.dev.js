@@ -2,7 +2,7 @@
 import path from 'path';
 
 // Webpack is configured by 'export'ing an object
-module.exports = {
+export default {
     // 'debug' was removed in webpack 2.0.0
     //debug: true,
     // 'devtool' has been set to inline-source-map, source-map ones are for higher quality
